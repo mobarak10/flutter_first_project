@@ -32,9 +32,10 @@ class HomeActivity extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ButtonStyle buttonStyle = ElevatedButton.styleFrom();
     return Scaffold(
       appBar: AppBar(
-        title: Text('Famicart'),
+        title: Text('Famcart'),
         toolbarHeight: 60,
         toolbarOpacity: 1,
         elevation: 10,
